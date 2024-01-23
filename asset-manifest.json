@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/goit-react-hw-08-phonebook/static/css/main.3a508acf.css",
+    "main.js": "/goit-react-hw-08-phonebook/static/js/main.b0958f76.js",
+    "static/media/DALL·E 2024-01-23 19.19.39 - Create a clean and minimal background design suitable for a contact book app. The background should be plain and simple, without any additional elemen.png": "/goit-react-hw-08-phonebook/static/media/DALL·E 2024-01-23 19.19.39 - Create a clean and minimal background design suitable for a contact book app. The background should be plain and simple, without any additional elemen.58c42b255d3fdce7ce53.png",
+    "index.html": "/goit-react-hw-08-phonebook/index.html",
+    "main.3a508acf.css.map": "/goit-react-hw-08-phonebook/static/css/main.3a508acf.css.map",
+    "main.b0958f76.js.map": "/goit-react-hw-08-phonebook/static/js/main.b0958f76.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3a508acf.css",
+    "static/js/main.b0958f76.js"
+  ]
+}
