@@ -7,20 +7,20 @@ const Navbar = () => {
   const isLoggedIn = useSelector(selectIsLoggedIn);
 
   return (
-    <div className="navbar">
+    <nav className="navbar">
       <NavLink to="/goit-react-hw-08-phonebook">Home</NavLink>
       {!isLoggedIn && (
         <NavLink to="/goit-react-hw-08-phonebook/login">Log In</NavLink>
       )}
       {!isLoggedIn && (
-        <NavLink to="/goit-react-hw-08-phonebook/register">Sign In</NavLink>
+        <NavLink to="/goit-react-hw-08-phonebook/register">Sign Un</NavLink>
       )}
 
       {isLoggedIn && (
         <NavLink to="/goit-react-hw-08-phonebook/contacts">Contacts</NavLink>
       )}
       {isLoggedIn && <UserMenu />}
-    </div>
+    </nav>
   );
 };
 
