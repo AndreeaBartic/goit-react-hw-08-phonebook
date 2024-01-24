@@ -225,8 +225,27 @@ code {
   }
 }
 @media screen and (max-width: 767px) {
+  #root {
+    background-size: ;
+  }
+  .home h1 {
+    max-width: 250px;
+    margin: 0 auto;
+    font-size: 30px;
+  }
   .navbar a {
-    padding-top: 145px;
+    padding-top: 125px;
     font-size: 20px;
+  }
+  .formContainer {
+    max-width: 280px;
+  }
+  .formContainer h1 {
+    font-size: 25px;
+  }
+  .terms {
+    padding-top: 10px;
+    font-size: 10px;
+    max-width: 280px;
   }
 }
