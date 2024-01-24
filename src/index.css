@@ -225,17 +225,25 @@ code {
   }
 }
 @media screen and (max-width: 767px) {
-  #root {
-    background-size: ;
-  }
   .home h1 {
     max-width: 250px;
     margin: 0 auto;
     font-size: 30px;
   }
+  .navbar {
+    height: 180px;
+  }
   .navbar a {
     padding-top: 125px;
-    font-size: 20px;
+    font-size: 13px;
+  }
+  .user-menu p {
+    font-size: 13px;
+    width: 50px;
+  }
+  .user-menu button {
+    font-size: 13px;
+    width: 63px;
   }
   .formContainer {
     max-width: 280px;
@@ -247,5 +255,25 @@ code {
     padding-top: 10px;
     font-size: 10px;
     max-width: 280px;
+  }
+  .contacts {
+    max-width: 350px;
+  }
+  .contacts h1 {
+    display: flex;
+  }
+  .contacts h2 {
+    margin-top: 30px;
+  }
+  .contacts form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .list button {
+    margin-left: 10px;
+  }
+  .list li {
+    font-size: 17px;
   }
 }
