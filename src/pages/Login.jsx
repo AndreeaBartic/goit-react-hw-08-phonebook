@@ -50,7 +50,7 @@ const Login = () => {
           </label>
         </div>
         <a href="/">Forgot Password?</a>
-        <button type="submit">Log in</button>
+        <button type="submit">Log In</button>
         <p>
           Don't have an account?
           <NavLink to="/goit-react-hw-08-phonebook/register"> Register</NavLink>

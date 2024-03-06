@@ -39,7 +39,15 @@ code {
 .navbar a:hover {
   color: #129cb2;
 }
-
+.home {
+  margin: 0 auto;
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
 .home h1 {
   padding-top: 250px;
 }
@@ -47,6 +55,26 @@ code {
 .contacts h1 {
   text-align: center;
   color: #333;
+}
+.home-btn {
+  display: flex;
+  height: 44px;
+  width: 228px;
+  border: none;
+  border-radius: 5px;
+  font-size: 23px;
+  background-color: #367d89;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: -80px;
+}
+.home-btn:hover {
+  color: #062e35;
+  background-color: #2fa9bb;
+}
+.home-btn a {
+  color: #f3fdff;
+  text-decoration: none;
 }
 .loginForm {
   background: rgb(190, 236, 236);
@@ -89,6 +117,7 @@ code {
   color: #062e35;
   background-color: #2fa9bb;
 }
+
 .terms {
   text-align: center;
   width: 300px;
@@ -97,7 +126,7 @@ code {
 .user-menu {
   display: flex;
   align-items: center;
-  margin-top: 90px;
+  margin-top: 153px;
 }
 .user-menu button {
   width: 100px;
@@ -151,6 +180,7 @@ code {
   border-top: 1px solid #093a42;
   backdrop-filter: blur(50px);
   padding: 20px 20px;
+  margin-top: px;
 }
 .contacts form {
   display: flex;
